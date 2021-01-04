@@ -11,4 +11,3 @@ def func(*args):
     return func
 
 print(f'result {func()}')
-g
