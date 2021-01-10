@@ -2,7 +2,7 @@ while 1:
     i = input("ввидите числа через пробел ")
     i = i.split(" ")
     a = 0
-    while a<len(i):
+    while a < len(i):
         try:
             i[a] = int(i[a])
         except ValueError:
